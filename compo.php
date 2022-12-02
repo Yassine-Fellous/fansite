@@ -24,7 +24,7 @@
                 <table>
                     <tr>
                         <td>
-                            <h1> <img src="image/monaco.png" id="om" /> Lille Composition</h1>
+                            <h1> <img src="image/monaco.png" id="om" /> Monaco Composition</h1>
                         </td>
                         <td>
                             <h2><img src="https://img.icons8.com/external-vitaliy-gorbachev-blue-vitaly-gorbachev/50/000000/external-turn-hand-gestures-vitaliy-gorbachev-blue-vitaly-gorbachev.png" /> Remplacant</h2>
