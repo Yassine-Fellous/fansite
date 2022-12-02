@@ -1,0 +1,219 @@
+/* CSS global */
+
+*
+    {
+        margin:0px;
+        padding:0px;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.up-contain{
+    display: flex;
+    width: auto;
+}
+.contain {
+    display: block;
+    padding: 1.5%;
+    margin: 2%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px;
+    height: fit-content
+    }
+
+    .contain:nth-child(odd){
+    background-color: rgb(228, 59, 59);
+    color: black;
+    }
+
+.contain:nth-child(even){
+    background-color: rgb(55, 129, 204);
+    color: white;
+    border: rgba(0,0,0,) 2px solid;
+}
+
+body{
+    background-attachment: scroll;
+    background-color: rgb(39, 143, 247);
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    margin: 2%;
+}
+
+li {
+    float: left;
+}
+
+.sub-contain{
+    display: block;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(3, 121, 238);
+}
+
+#columns {
+    flex-direction: column;
+}
+
+.rsociaux{
+    width: 50px;
+    border-radius: 16px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke ;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px;
+}
+
+#footer{
+    background-color: whitesmoke;
+    color: black;
+    align-items: flex-start;
+    box-shadow: 0px 0px;
+}
+/* Fansite.html */
+
+#logo {
+    width: 250px;
+    }
+
+/* Fansite2.html */
+table {
+    
+    text-align: center ;
+    justify-content: flex-end;
+    display:flex-end;
+}
+
+.parent{
+    display:flex;
+    justify-content:center ;
+    justify-content: space-around;
+    margin:0.5cm;
+    justify-content: space-evenly;
+}
+
+.compolille{
+display:flex-end;
+border-style: solid;
+border-color: black;
+width: fit-content;
+height: fit-content;
+padding: 4%;
+}
+
+.compoom{
+    display:flex-end;
+    border-style: solid;
+    border-color: black;
+    width: fit-content;
+    height: fit-content;
+    padding: 4%;
+}
+
+#om{
+    width: 50px;
+    height: 50px;
+
+}
+#tetejoueurs{
+    width: 50px;
+    height: 50px;
+}
+
+#cartonjaune{
+    width: 25px;
+	height: 25px;
+}
+
+/* Fansite3.html */
+
+#message{
+    height: 125px;
+    width:250px;
+}
+
+input, select, textarea {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 99%;
+}
+input[type=submit]:hover {
+    background-color: #9CBFA7;
+}
+
+/* Fansite4.html */
+
+#trophée{
+    /*background-image:url(https://cdn.radiofrance.fr/s3/cruiser-production/2019/04/d420c97f-db67-4b64-8fb6-6758a5e07334/870x489_20190403_104608.jpg) ;*/
+    background-color: rgb(186, 158, 4);
+    background-size:cover;
+}
+.parent{
+    display:flex;
+    justify-content:center ;
+    justify-content: space-around;
+    margin:10%;
+    justify-content: space-evenly;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-align:left;
+}
+
+#coupe{
+    width: 25px;
+    height: 25px;
+}
+
+#titre{
+    background-color: rgb(20, 117, 214);
+}
+.blockun {
+
+    text-align: center;
+    justify-content:center;
+    border-style:ridge;
+    border-color: black;
+    width: 20%;
+    height: fit-content;
+    background-color:white;
+}
+
+.blockdeux{
+    text-align: center;
+    justify-content:center;
+    border-color: black;
+    border-style:ridge;
+    width: 20%;
+    height: fit-content;
+    background-color:white;
+}
+
+.blocktrois{
+    justify-content:center;
+    border-color: black;
+    border-style:ridge;
+    text-align: center;
+    width: 20%;
+    height: fit-content;
+    background-color:white;
+}
