@@ -21,9 +21,9 @@ class cfcontact extends database{
 
 
         $nom = secuData($_nom);
-        $prenom = htmlspecialchars($_prenom);
-        $email = htmlspecialchars($_email);
-        $message = htmlspecialchars($_message);
+        $prenom = secuData($_prenom);
+        $email = secuData($_email);
+        $message = secuData($_message);
 
 
         
